@@ -43,7 +43,7 @@
 "dW" = (/obj/structure/spider/stickyweb/sealed/tough,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Disposals"})
 "ec" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Disposals"})
 "ek" = (/obj/machinery/griddle,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"eq" = (/obj/machinery/power/port_gen/pacman/pre_loaded,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"eq" = (/obj/machinery/power/port_gen/pacman/pre_loaded{power_gen = 30000},/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
 "ev" = (/obj/structure/sign/poster/contraband/jumbo_bar/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"})
 "ez" = (/turf/open/floor/iron/dark/smooth_corner{dir = 3},/area/station/maintenance/radshelter{name = "Party Room"})
 "eD" = (/obj/structure/table/reinforced,/obj/item/weldingtool/empty,/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
@@ -86,7 +86,7 @@
 "iT" = (/obj/structure/cable,/obj/structure/tank_holder/extinguisher,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "iV" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
 "iY" = (/obj/structure/disposalpipe/segment,/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
-"jd" = (/obj/structure/cable,/obj/machinery/light/red/dim/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"jd" = (/obj/structure/cable,/obj/machinery/light/cold/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "je" = (/obj/structure/spider/stickyweb/very_sticky,/obj/structure/rack,/obj/item/mmi/syndie{name = "\improper Man-Machine Interface"},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
 "jk" = (/obj/machinery/door/poddoor{id = 11},/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "jo" = (/obj/vehicle/sealed/mecha/honker/dark/loaded{name = "Chik'N'Fix"; desc = "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. This one has been painted black for maximum fun. HONK! This mech seems to be oddly fascinated with food and laughter."},/obj/machinery/light/floor,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
@@ -127,7 +127,7 @@
 "mx" = (/obj/structure/table/wood/fancy,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"})
 "mC" = (/obj/structure/chair/stool/directional/west,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"})
 "mE" = (/obj/structure/closet/cardboard,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
-"mQ" = (/obj/machinery/light/red/dim/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
+"mQ" = (/obj/machinery/light/cold/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "ne" = (/obj/machinery/computer/communications{dir = 4},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "nn" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "nr" = (/obj/structure/falsewall/reinforced,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
@@ -150,7 +150,7 @@
 "oI" = (/mob/living/basic/spider/maintenance,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
 "oL" = (/obj/item/wallframe/closet,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "oN" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 6},/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
-"oO" = (/obj/machinery/light/red/dim/directional/south,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
+"oO" = (/obj/structure/cable,/obj/machinery/light/cold/directional/south,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "pa" = (/obj/structure/cable,/obj/structure/disposalpipe/segment,/turf/open/floor/iron/dark/smooth_edge{dir = 1},/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "pi" = (/obj/structure/table/wood/fancy,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"})
 "pj" = (/obj/structure/cable,/obj/machinery/power/apc/auto_name/directional/north{critical_machine = 1; auto_name = 0; name = "The Laboratory"},/obj/item/stock_parts/power_store/cell/infinite,/obj/effect/mapping_helpers/apc/full_charge,/obj/effect/mapping_helpers/apc,/obj/effect/mapping_helpers/apc/syndicate_access,/obj/effect/mapping_helpers/apc/cell_10k,/mob/living/silicon/robot/model/syndicate/saboteur,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
@@ -321,6 +321,7 @@
 "Ew" = (/obj/structure/table/reinforced,/obj/item/mod/control/pre_equipped/contractor/upgraded,/obj/item/mod/module/springlock/bite_of_87,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "EK" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "ET" = (/turf/open/floor/iron/dark/smooth_corner{dir = 4},/area/station/maintenance/radshelter{name = "Party Room"})
+"EX" = (/obj/structure/cable,/obj/machinery/power/port_gen/pacman/pre_loaded{power_gen = 30000},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
 "Fd" = (/turf/open/floor/iron/dark/smooth_half{dir = 4},/area/station/maintenance/radshelter{name = "Party Room"})
 "Fg" = (/obj/machinery/power/smes,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
 "Fw" = (/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
@@ -380,7 +381,7 @@
 "Kn" = (/obj/structure/spider/stickyweb/very_sticky,/obj/structure/cable,/obj/item/fireaxe,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
 "Ko" = (/obj/item/bot_assembly/firebot,/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Kp" = (/obj/machinery/light/broken/directional/east,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"})
-"Kq" = (/obj/structure/cable,/obj/structure/rack,/obj/machinery/light/red/dim/directional/south,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/uranium/five,/obj/item/stack/sheet/mineral/uranium/five,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Kq" = (/obj/structure/cable,/obj/structure/rack,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/uranium/five,/obj/item/stack/sheet/mineral/uranium/five,/obj/machinery/light/cold/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "KA" = (/obj/structure/disposalpipe/segment{dir = 9},/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
 "KC" = (/obj/machinery/light/broken/directional/west,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "KF" = (/obj/structure/spider/spikes,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
@@ -418,16 +419,17 @@
 "MO" = (/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "MR" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
 "MT" = (/obj/structure/rack,/obj/item/vending_refill/donksnackvendor,/obj/item/vending_refill/donksnackvendor,/obj/machinery/bluespace_vendor/directional/north,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
+"MV" = (/obj/item/wallframe/closet,/obj/item/book/manual/wiki/robotics_cyborgs,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "MW" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/light/colour_cycle/dancefloor_a,/area/station/maintenance/radshelter{name = "Party Room"})
 "MY" = (/obj/structure/sign/departments/restroom/directional/east,/turf/open/floor/iron/dark/smooth_edge{dir = 4},/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "Nb" = (/obj/structure/cable,/obj/effect/spawner/random/trash/bacteria,/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Nl" = (/obj/structure/rack,/obj/item/mod/module/springlock/bite_of_87,/obj/item/mod/module/springlock,/obj/effect/decal/cleanable/blood/gibs,/turf/open/floor/iron/smooth_half,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Nm" = (/obj/structure/closet/cardboard,/obj/item/stock_parts/power_store/cell/bluespace,/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "Ns" = (/obj/machinery/photocopier{pixel_y = 3},/obj/structure/cable,/obj/structure/table/wood,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
-"Nt" = (/obj/machinery/mech_bay_recharge_port{critical_machine = 1},/obj/structure/cable,/obj/machinery/light/red/dim/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Nt" = (/obj/machinery/mech_bay_recharge_port{critical_machine = 1},/obj/structure/cable,/obj/machinery/light/cold/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Nv" = (/obj/effect/decal/cleanable/blood,/obj/structure/spider/stickyweb/very_sticky,/mob/living/basic/spider/giant/ambush,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
 "NC" = (/obj/structure/rack,/obj/item/robot_suit,/turf/open/floor/iron/smooth_half,/area/station/maintenance/radshelter{name = "Parts & Service"})
-"NE" = (/obj/structure/extinguisher_cabinet/directional/north,/obj/machinery/light/red/dim/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
+"NE" = (/obj/structure/extinguisher_cabinet/directional/north,/obj/machinery/light/cold/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "NJ" = (/obj/structure/cable,/obj/structure/disposalpipe/junction/yjunction,/turf/open/floor/light/colour_cycle/dancefloor_b,/area/station/maintenance/radshelter{name = "Party Room"})
 "NK" = (/obj/structure/sign/poster/contraband/interdyne_gene_clinics/directional/north,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"})
 "NP" = (/obj/structure/cable,/obj/structure/sign/poster/contraband/syndicate_medical/directional/east,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
@@ -457,7 +459,7 @@
 "Ps" = (/obj/structure/cable,/obj/structure/mecha_wreckage/reticence{move_resist = 10000},/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Pt" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Bathroom A"})
 "Pu" = (/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
-"Pw" = (/obj/structure/cable,/obj/machinery/light/red/dim/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Pw" = (/obj/structure/cable,/obj/machinery/light/cold/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Px" = (/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "PB" = (/obj/structure/sign/poster/contraband/syndicate_medical/directional/east,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
 "PH" = (/obj/structure/table,/obj/machinery/smartfridge/drying,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
@@ -644,7 +646,7 @@ zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZERERERERE
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREhPnQuHNlIuREPQPQVtAKNKFRAKAKaIAKJpBsPdaIAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKbELrcKHIxevRDeVaytLtVtZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREKoPxPxPxSBREREREREAKAKAKAKAKaIAKAKAKAKaIAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKSzAKAKAKAKAKAKKpVtZPZPZPZPZPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREojBiuSPxwpDtDtDtgEAKAKAKAKezhUFdFdFdFdhUFdFdFdFdFdFdFdFdFdFdFdFdFdFdFdFdFdghFdFdGzAKAKAKyXVtTFYpJPSpZPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEhJPsGleDYtMiKTKTKTgpTVTVTVTVdSMWMAsEMAQTkIsENJDwAODwAODwAODwAODwAODwAODwAODwsDDTusGDAKAKAKaIVtparprpnPZPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEMVPsGleDYtMiKTKTKTgpTVTVTVTVdSMWMAsEMAQTkIsENJDwAODwAODwAODwAODwAODwAODwAODwsDDTusGDAKAKAKaIVtparprpnPZPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEoLNbPxCVBiqoREREREREaIAKAKAKGDusPWusPWusPWusRHusPWusPWusPWusPWusPWusPWusPWusRHusPWGDAKAKAKaIVtparprpnPZPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREGOMqdlDAXhREPQPQVtOgAKAKAKGDqbDTPWDTPWDTPWuYPWDTPWDTPWDTPWDTPWDTPWDTPWDTPWEfKSDwrxiuiuiupvWgdPrprpnPZPZEkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREoNUJYkYkACREPQPQVtFyAKAKAKETFdFdFdFdFdhUFdghFdFdFdFdFdhUFdFdFdFdFdhUFdFdFdFdFdFdOObEaIaIbEILbOrprpnPZPZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
@@ -665,9 +667,9 @@ zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkv
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmwmwmwmwmAKAKAKAKAKAKAKAKAKAKAKAKSzAKAKAKAKAKAKAKAKGXAKGXAKAKAKAKAKAKAKAKaIAKAKAKVtXLrprprpsGqmSgtCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEVtwkAKAKAKAKjOAKAKAKAKAKAKCiiuMeDitXIrjEhThThThThThThThTRjothThTQqaIAKAKAKVtVqXLXLXLtIqmSgtCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvZEVtVtVtVtVtVtVtVtVtVtVtVtAKSzVtVtVtVtVtVtOESnOEVtAKAKVtVtVtVtVtVtSzaIVtVtVtVtZPZPZPZPtIrkrktCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEkvPQPQPQPQPQzJnREKzJzJUgUgUgsPdDMwOEPfRQRQPfPQPQPQPQkPwhFHkPPQPQPQPQPQPQPQtIxZtItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvZEkvPQPQPQPQzJzJnREKzJzJUgUgUgUgdDMwOEPfRQRQPfPfPQPQkPkPigCEkPkPkPkPkPkPkPkPkPFIkPZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEkvPQPQPQPQzJVRnREKhlzJUggHUgUgdDMwOERQRQRQRQPfPQPQkPJwovOTrIccPHuzhsdUtcWnCANYkPZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEkvPQPQPQPQPQzJnREKzJzJrOrOrOsPdDMwOEPfRQRQPfPQPQPQPQkPwhFHkPPQPQPQPQPQPQPQtIxZtItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvZEkvPQPQPQPQzJzJnREKzJzJrOrOrOUgdDMwOEPfRQRQPfPfPQPQkPkPigCEkPkPkPkPkPkPkPkPkPFIkPZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEkvPQPQPQPQzJVRnREKhlzJrOgHrOUgdDMwOERQRQRQRQPfPQPQkPJwovOTrIccPHuzhsdUtcWnCANYkPZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOwOwOwOwOwOAcnREKnRzJUgrOUgUgdDMwOERQRQRQbDPfPQPQkPEqGcCEZsZsGcGcGcGcGcGcGcDckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOAfMTwlUBwOksnREKnRzJTCrOUglgdDMwOERQRQRQRQPfPQPQkPEqGcCEGcGcGcuIGcGcGcGcGcGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOxSOiOikSwOksnREKnRzJgLrOUgxbdDMwOEjvRQRQRQPfPQPQkPEqGckfYGbiUcSVCETDYGbiCqfgkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
@@ -689,7 +691,7 @@ zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFJyFgPcqFiVgSRFBFRFzFAHKAXrnxeLLvueueueNTueueueZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFJyFgDxDxOFCKQrUxQrQrqfqfXrnxPXXvXvXvXvYvnxZEZEZEkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFqFDxDxDxXrfqQrgxQrQrqfqfXrecAUececececIEecZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFqFWDeqeqXrDGOawLQrQrvYqfXrdWmiNvkjSJgtlZdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFqFWDeqEXXrDGOawLQrQrvYqfXrdWmiNvkjSJgtlZdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFOFOFOFOFXrjsQrQrQrQrqfzKXrdWVZPVanBYgtLNdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEXrizirvjYDLnqfqfXrdWdWdWdWdWdWdWdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvZEXrsYirvjYDLnqfqfXrZEZEZEZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
