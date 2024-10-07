@@ -1,5 +1,6 @@
 "an" = (/obj/effect/decal/cleanable/blood/gibs/body,/obj/structure/spider/stickyweb/very_sticky,/mob/living/basic/spider/giant/tarantula,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
 "at" = (/obj/structure/cable,/obj/machinery/door/poddoor/preopen{active_power_usage = 1000; desc = "A heavy duty blast door. That should keep you safe. Right?"; id = 6},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
+"aF" = (/obj/structure/cable,/obj/machinery/power/terminal{dir = 8},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "aI" = (/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "aL" = (/obj/structure/cable,/obj/structure/cable,/obj/machinery/portable_atmospherics/canister/oxygen,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "bb" = (/obj/structure/cable,/obj/machinery/camera{c_tag = "Hall West"; dir = 10; network = list("FNAF")},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
@@ -10,7 +11,9 @@
 "bD" = (/obj/machinery/light/broken/directional/east{constant_flickering = 1},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
 "bE" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "bF" = (/obj/structure/chair/wood{dir = 1},/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
-"bK" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/effect/spawner/random/food_or_drink/pizzaparty,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"bI" = (/obj/structure/cable,/obj/machinery/light/floor,/obj/effect/decal/cleanable/traitor_rune/traitor,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"bJ" = (/obj/structure/chair/office/tactical{dir = 8},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
+"bK" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/item/plate,/obj/item/food/pizzaslice/ants,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "bO" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "bV" = (/obj/structure/cable,/obj/structure/rack,/obj/item/mmi/syndie,/obj/item/mmi/syndie,/obj/item/mmi/syndie,/obj/item/mmi/syndie,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "bY" = (/obj/item/stack/sheet/mineral/plasma/thirty,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
@@ -18,11 +21,12 @@
 "cd" = (/obj/structure/chair/stool/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "cj" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "cn" = (/obj/structure/toilet/greyscale{dir = 8},/mob/living/basic/spider/maintenance,/obj/effect/spawner/random/engineering/tool_alien,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom A"})
+"cx" = (/obj/structure/table/wood/fancy,/obj/item/plate/large,/obj/item/food/pizza/flatbread/zmorgast,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "cC" = (/obj/structure/mineral_door/wood,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "cE" = (/obj/structure/table/optable,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/obj/effect/mob_spawn/corpse/human/cook,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "cI" = (/obj/effect/mapping_helpers/burnt_floor,/obj/structure/sign/poster/contraband/dancing_honk/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "cK" = (/obj/structure/cable,/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk{dir = 2},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"cL" = (/obj/machinery/mech_bay_recharge_port,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"cL" = (/obj/machinery/mech_bay_recharge_port,/obj/structure/cable,/obj/effect/mapping_helpers/broken_machine,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "cS" = (/obj/structure/toilet/greyscale{dir = 8},/obj/item/storage/wallet/money,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "cX" = (/obj/structure/rack,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/obj/item/clothing/head/costume/party/festive,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "da" = (/mob/living/basic/mouse/gray,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
@@ -33,7 +37,7 @@
 "dm" = (/mob/living/basic/cockroach,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "dq" = (/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "dx" = (/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
-"dD" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"dD" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Power Gen"})
 "dG" = (/obj/structure/rack,/obj/item/broadcast_camera,/turf/open/floor/iron/smooth_corner{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "dP" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 9},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "dS" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/dark/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
@@ -42,25 +46,29 @@
 "dW" = (/obj/structure/spider/stickyweb/sealed/tough,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Disposals"})
 "ec" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Disposals"})
 "ek" = (/obj/machinery/griddle,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"eq" = (/obj/machinery/power/port_gen/pacman/pre_loaded{power_gen = 30000},/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"eq" = (/obj/structure/table/glass,/obj/item/surgery_tray/full,/obj/item/storage/medkit/fire{pixel_x = -3; pixel_y = -3},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "ev" = (/obj/structure/sign/poster/contraband/jumbo_bar/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "ez" = (/turf/open/floor/iron/dark/smooth_corner{dir = 3},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "eD" = (/obj/structure/table/reinforced,/obj/item/weldingtool/empty,/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "eL" = (/obj/structure/spider/stickyweb/very_sticky,/obj/item/robot_suit/prebuilt,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room South"})
+"ff" = (/obj/structure/closet/generic/wall,/obj/item/storage/medkit/o2{pixel_x = -3; pixel_y = -3},/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "fg" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "fj" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
-"fm" = (/obj/machinery/computer/camera_advanced{dir = 4; networks = list("FNAF"); critical_machine = 1},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
-"fq" = (/obj/structure/cable,/obj/structure/tank_holder/extinguisher,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
+"fm" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/chair/comfy/black{dir = 8},/obj/machinery/light/floor,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"fq" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate/large,/obj/item/food/pizza/flatbread/italic,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "fw" = (/obj/structure/cable,/obj/structure/sign/poster/contraband/borg_fancy_1/directional/west,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"fC" = (/obj/machinery/door/airlock/highsecurity{name = "MANAGEMENT ONLY"; req_access = list("syndicate"); critical_machine = 1},/obj/effect/mapping_helpers/airlock/access/all/syndicate,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
+"fH" = (/obj/structure/table/glass,/obj/item/modular_computer/laptop/preset/syndicate{pixel_y = 7},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
+"fU" = (/obj/machinery/computer/operating{dir = 1},/obj/effect/mapping_helpers/broken_machine,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "ga" = (/obj/item/circuitboard/machine/vending/donksnackvendor,/obj/structure/rack,/obj/item/circuitboard/machine/vending/donksnackvendor,/obj/item/storage/box/lights/bulbs,/obj/item/storage/box/lights/bulbs,/obj/item/storage/box/lights/bulbs,/obj/item/storage/box/lights/tubes,/obj/item/storage/box/lights/tubes,/obj/item/storage/box/lights/tubes,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "gh" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/dark/smooth_half{dir = 4},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"gm" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/effect/spawner/random/food_or_drink/pizzaparty,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"gm" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/item/plate/large,/obj/item/food/pizza/flatbread/rustic,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "gp" = (/obj/machinery/door/airlock/grunge,/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "gt" = (/obj/structure/spider/stickyweb/very_sticky,/mob/living/basic/spider/maintenance,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
 "gx" = (/obj/structure/table/wood,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "gE" = (/obj/machinery/door/airlock/grunge,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Parts & Service"})
-"gH" = (/obj/machinery/gravity_generator/main{critical_machine = 1},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
-"gL" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/weapon/energy/ion,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"gH" = (/obj/structure/chair/comfy/black{dir = 8},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
+"gL" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/weapon/energy/ion,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "gM" = (/obj/structure/cable,/obj/structure/disposalpipe/segment,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "gN" = (/obj/machinery/defibrillator_mount/mobile{critical_machine = 1},/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "gS" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
@@ -80,23 +88,26 @@
 "ir" = (/obj/structure/rack,/obj/item/tank/internals/emergency_oxygen/double,/obj/item/tank/internals/emergency_oxygen/double,/obj/item/tank/internals/emergency_oxygen/double,/obj/item/tank/internals/emergency_oxygen/double,/obj/item/tank/internals/emergency_oxygen/double,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "iu" = (/obj/structure/disposalpipe/segment{dir = 8},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "iz" = (/obj/structure/cable,/obj/item/stack/sheet/cloth/ten,/obj/item/stack/sheet/cloth/ten,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
+"iE" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate/large,/obj/item/food/pizza/flatbread/imperial,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "iS" = (/obj/structure/table/reinforced/rglass,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "iT" = (/obj/structure/cable,/obj/structure/tank_holder/extinguisher,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
-"iV" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"iV" = (/obj/machinery/door/airlock/hatch,/obj/structure/cable,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "iY" = (/obj/structure/disposalpipe/segment,/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
-"jd" = (/obj/structure/cable,/obj/machinery/light/cold/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"jd" = (/obj/structure/cable,/obj/machinery/light/red/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "je" = (/obj/structure/spider/stickyweb/very_sticky,/obj/structure/rack,/obj/item/mmi/syndie{name = "\improper Man-Machine Interface"},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
 "jk" = (/obj/machinery/door/poddoor{id = 11},/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "jo" = (/obj/vehicle/sealed/mecha/honker/dark/loaded{name = "Chik'N'Fix"; desc = "Produced by \"Tyranny of Honk, INC\", this exosuit is designed as heavy clown-support. This one has been painted black for maximum fun. HONK! This mech seems to be oddly fascinated with food and laughter."},/obj/machinery/light/floor,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "js" = (/obj/structure/cable,/obj/machinery/light/dim/directional/west,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "jv" = (/obj/structure/sign/poster/contraband/little_fruits/directional/west,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
 "jw" = (/obj/structure/chair/stool/directional/east,/obj/structure/disposalpipe/segment,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"jy" = (/obj/structure/filingcabinet{pixel_x = 4},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "jz" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
 "jE" = (/obj/structure/disposalpipe/segment{dir = 8},/obj/structure/cable,/obj/structure/sign/poster/contraband/masked_men/directional/south,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "jF" = (/obj/structure/mineral_door/wood,/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "jL" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "jM" = (/obj/structure/cable,/mob/living/basic/spider/maintenance,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "jO" = (/obj/machinery/light/broken/directional/south,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"jQ" = (/obj/structure/table/wood,/obj/item/reagent_containers/cup/glass/coffee{pixel_x = -6; pixel_y = 1},/obj/item/book/bible/syndicate{pixel_x = 5; pixel_y = 2},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "kb" = (/obj/structure/sign/poster/contraband/pwr_game/directional/east,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "kc" = (/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk{dir = 1},/turf/open/floor/iron/smooth_corner{dir = 4},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "kf" = (/obj/machinery/griddle,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
@@ -112,20 +123,22 @@
 "kP" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Kitchen"})
 "kR" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "kS" = (/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
-"lg" = (/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_right_leg,/obj/item/mecha_parts/part/savannah_ivanov_left_leg,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
-"lB" = (/obj/structure/cable,/obj/structure/cable,/obj/machinery/vending/wardrobe/syndie_wardrobe/interdyne{critical_machine = 1},/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"lg" = (/obj/structure/rack,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
+"lB" = (/obj/structure/cable,/obj/structure/cable,/mob/living/silicon/robot/model/syndicate/medical,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "lP" = (/obj/machinery/light/floor/broken,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"lS" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/drill/diamonddrill,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"lS" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/drill/diamonddrill,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "lU" = (/obj/structure/curtain/cloth/fancy/mechanical{id = 3},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
 "lV" = (/obj/machinery/light/broken/directional/west{flickering = 1; flicker_timer = 15},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/dark/smooth_edge{dir = 1},/area/station/maintenance/radshelter{name = "Bathroom Hall"})
-"lZ" = (/obj/effect/decal/cleanable/blood/tracks,/obj/effect/decal/cleanable/blood/trails,/mob/living/basic/spider/maintenance,/obj/structure/disposalpipe/segment,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
+"lZ" = (/obj/effect/decal/cleanable/blood/tracks,/obj/effect/decal/cleanable/blood/trails{dir = 4},/mob/living/basic/spider/maintenance,/obj/structure/disposalpipe/segment,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
+"mf" = (/obj/machinery/camera/autoname/motion/directional/east{critical_machine = 1; network = list("FNAFSynd")},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "mh" = (/obj/machinery/space_heater,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "mi" = (/obj/effect/decal/cleanable/blood/gibs/down,/obj/structure/spider/eggcluster,/obj/structure/spider/stickyweb/very_sticky,/obj/item/circuitboard/mecha/savannah_ivanov/peripherals,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
+"mn" = (/obj/structure/rack,/obj/item/storage/medkit/toxin{pixel_x = -3; pixel_y = -3},/obj/item/storage/medkit/brute{pixel_x = -3; pixel_y = -3},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "mq" = (/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "mx" = (/obj/structure/table/wood/fancy,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "mC" = (/obj/structure/chair/stool/directional/west,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "mE" = (/obj/structure/closet/cardboard,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/head/soft/purple,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/item/clothing/neck/tie/black/tied,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
-"mQ" = (/obj/machinery/light/cold/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
+"mQ" = (/obj/machinery/light/red/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "ne" = (/obj/machinery/computer/communications{dir = 4},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "nn" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "nr" = (/obj/structure/falsewall/reinforced,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
@@ -142,44 +155,50 @@
 "oj" = (/mob/living/basic/cockroach,/obj/machinery/light/broken/directional/west{constant_flickering = 1},/obj/structure/cable,/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "om" = (/obj/machinery/computer/monitor,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "ot" = (/obj/machinery/light/broken/directional/south,/obj/structure/disposalpipe/segment{dir = 8},/obj/structure/cable,/obj/structure/sign/poster/contraband/donut_corp/directional/south,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"ou" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate/large,/obj/item/food/pizza/flatbread/fish,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "ov" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 9},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "oE" = (/obj/structure/cable,/obj/machinery/portable_atmospherics/canister/oxygen,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "oH" = (/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
 "oI" = (/mob/living/basic/spider/maintenance,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
 "oL" = (/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/structure/closet/generic/wall,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "oN" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 6},/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
-"oO" = (/obj/structure/cable,/obj/machinery/light/cold/directional/south,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
+"oO" = (/obj/structure/cable,/obj/machinery/light/red/directional/south,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "pa" = (/obj/structure/cable,/obj/structure/disposalpipe/segment,/turf/open/floor/iron/dark/smooth_edge{dir = 1},/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "pi" = (/obj/structure/table/wood/fancy,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "pj" = (/obj/structure/cable,/obj/machinery/power/apc/auto_name/directional/north{critical_machine = 1; auto_name = 0; name = "The Laboratory"; arc_shielded = 1},/obj/item/stock_parts/power_store/cell/infinite,/obj/effect/mapping_helpers/apc/full_charge,/obj/effect/mapping_helpers/apc,/obj/effect/mapping_helpers/apc/syndicate_access,/obj/effect/mapping_helpers/apc/cell_10k,/mob/living/silicon/robot/model/syndicate/saboteur,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "pk" = (/mob/living/basic/trooper/syndicate/melee/sword/space/stormtrooper,/turf/open/floor/mineral/plastitanium,/area/space)
 "pq" = (/obj/machinery/computer/libraryconsole{dir = 8},/obj/structure/table/wood,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "pv" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 8},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"pH" = (/obj/structure/dresser,/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "pK" = (/turf/closed/indestructible/syndicate,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
+"pZ" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate,/obj/item/food/pizzaslice/vegetable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "qa" = (/obj/structure/table/reinforced,/obj/item/implant/radio/syndicate,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "qb" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/light/colour_cycle,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "qf" = (/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
 "qm" = (/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "qn" = (/obj/structure/rack,/obj/item/storage/box/party_poppers,/obj/item/storage/box/party_poppers,/obj/item/storage/box/party_poppers,/obj/item/storage/box/party_poppers,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "qo" = (/obj/structure/cable,/obj/structure/disposalpipe/segment,/obj/effect/spawner/random/trash/mopbucket,/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
+"qq" = (/obj/machinery/defibrillator_mount/charging,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "qs" = (/obj/structure/closet/cardboard,/obj/item/clothing/suit/utility/fire/firefighter,/obj/item/clothing/suit/utility/fire/firefighter,/obj/item/clothing/suit/utility/fire/firefighter,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "qE" = (/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom A"})
-"qF" = (/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"qF" = (/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "qG" = (/obj/structure/disposalpipe/junction/yjunction{dir = 4},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "qK" = (/obj/structure/bookcase/random/reference,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "qP" = (/obj/structure/closet/cardboard,/obj/item/clothing/shoes/jackboots,/obj/item/clothing/shoes/jackboots,/obj/item/clothing/shoes/jackboots,/obj/item/clothing/shoes/jackboots,/obj/item/clothing/shoes/jackboots,/obj/item/clothing/accessory/badge/old,/obj/item/clothing/accessory/badge/old,/obj/item/clothing/accessory/badge/old,/obj/item/clothing/accessory/badge/old,/obj/item/clothing/accessory/badge/old,/mob/living/basic/mouse/white{name = "Fiddy Fastbear"},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
+"qX" = (/obj/structure/cable,/obj/machinery/power/smes,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "rg" = (/obj/structure/closet/cardboard,/obj/item/clothing/under/color/lightpurple,/obj/item/clothing/under/color/lightpurple,/obj/item/clothing/under/color/lightpurple,/obj/item/clothing/under/color/lightpurple,/obj/item/clothing/under/color/lightpurple,/obj/item/clothing/suit/armor/vest,/obj/item/clothing/suit/armor/vest,/obj/item/clothing/suit/armor/vest,/obj/item/clothing/suit/armor/vest,/obj/item/clothing/suit/armor/vest,/obj/structure/cable,/obj/machinery/camera{c_tag = "Party Room South"; dir = 5; network = list("FNAF")},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "rk" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom B"})
-"rm" = (/obj/effect/landmark/navigate_destination{location = Kitchen},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
+"rm" = (/obj/effect/landmark/navigate_destination{location = Kitchen; name = "Kitchen"},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "rp" = (/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "rq" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Manager's Office"})
-"rs" = (/obj/machinery/power/smes/battery_pack/large/precharged,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"rs" = (/obj/structure/bed/medical,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "ru" = (/obj/machinery/camera{c_tag = "Parts & Service"; dir = 6; network = list("FNAF")},/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
 "rx" = (/obj/structure/disposalpipe/segment{dir = 8},/turf/open/floor/iron/dark/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "rI" = (/obj/effect/spawner/random/trash/mess,/obj/machinery/light_switch/directional/north,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"rO" = (/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"rO" = (/obj/effect/landmark/navigate_destination{location = Generator},/obj/machinery/power/terminal{dir = 1},/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "rP" = (/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom A"})
 "rQ" = (/obj/structure/cable,/obj/structure/sign/poster/contraband/interdyne_gene_clinics/directional/south,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
+"rR" = (/obj/structure/table/wood/fancy,/obj/item/plate/large,/obj/item/food/pizza/vegetable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "rV" = (/obj/structure/cable,/obj/structure/sign/poster/contraband/blood_geometer/directional/west,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "rX" = (/obj/effect/mapping_helpers/broken_floor,/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
 "sl" = (/obj/structure/table/reinforced,/obj/structure/sign/clock/directional/north,/obj/machinery/light/broken/directional/north{flicker_timer = 30; flickering = 1},/obj/machinery/button/flasher/indestructible{id = 2; pixel_x = -5},/obj/item/phone{pixel_y = 5; pixel_x = 7},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
@@ -190,25 +209,26 @@
 "sE" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/light/colour_cycle/dancefloor_a,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "sG" = (/obj/structure/mineral_door/wood,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "sM" = (/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
-"sP" = (/obj/item/mecha_parts/part/savannah_ivanov_armor,/obj/item/mecha_parts/chassis/savannah_ivanov,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"sP" = (/obj/machinery/power/smes/battery_pack/large/precharged,/obj/structure/cable,/obj/effect/mapping_helpers/broken_machine,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "sS" = (/obj/structure/spider/stickyweb/very_sticky,/obj/structure/rack,/obj/item/organ/internal/brain,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
 "sU" = (/obj/structure/cable,/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "sY" = (/obj/structure/cable,/obj/item/stack/sheet/cardboard/fifty,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "sZ" = (/obj/structure/table/reinforced/rglass,/obj/item/reagent_containers/cup/bottle/chloralhydrate{pixel_x = -5},/obj/item/reagent_containers/hypospray/medipen/morphine,/obj/item/reagent_containers/cup/bottle/morphine{pixel_x = 5},/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "tc" = (/obj/structure/table,/obj/machinery/processor{pixel_y = 12},/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"tu" = (/obj/structure/fireaxecabinet/mechremoval/directional/east,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"tu" = (/obj/structure/fireaxecabinet/mechremoval/directional/east,/obj/item/mecha_parts/part/savannah_ivanov_armor,/obj/item/mecha_parts/chassis/savannah_ivanov,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "tw" = (/obj/structure/rack,/obj/item/bear_armor,/obj/item/clothing/head/costume/bearpelt,/obj/item/stock_parts/capacitor/quadratic,/obj/item/clothing/mask/animal/small/bear/cursed,/obj/structure/spider/spikes,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
 "tz" = (/obj/machinery/light/floor/broken,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "tC" = (/obj/structure/sink/directional/west,/obj/structure/mirror/directional/east,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "tI" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "tJ" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"tM" = (/obj/structure/bed/medical,/obj/effect/decal/cleanable/blood/old,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "tX" = (/obj/structure/disposalpipe/segment{dir = 8},/obj/structure/cable,/obj/structure/sign/poster/contraband/mothic_rations/directional/south,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "ue" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Security Maintenance"})
 "ug" = (/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "uh" = (/obj/structure/sign/poster/traitor/ai_rights,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "uk" = (/obj/structure/closet/cardboard,/obj/effect/spawner/random/clothing/mafia_outfit,/obj/effect/spawner/random/clothing/mafia_outfit,/obj/effect/spawner/random/clothing/mafia_outfit,/obj/effect/spawner/random/clothing/mafia_outfit,/obj/effect/spawner/random/clothing/mafia_outfit,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "ul" = (/obj/structure/cable,/obj/structure/cable,/obj/machinery/button/door/indestructible{id = 1; req_access = list("security")},/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Security Office"})
-"uq" = (/obj/machinery/door/airlock/highsecurity,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"uq" = (/obj/machinery/door/airlock/highsecurity,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "us" = (/obj/structure/cable,/turf/open/floor/light/colour_cycle/dancefloor_b,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "uz" = (/obj/structure/table,/obj/machinery/reagentgrinder{pixel_x = 6; pixel_y = 6},/obj/machinery/light/broken/directional/north,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "uA" = (/turf/closed/indestructible/syndicate,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
@@ -216,15 +236,17 @@
 "uH" = (/obj/structure/rack,/obj/item/mod/control/pre_equipped/security,/turf/open/floor/iron/smooth_half,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "uI" = (/obj/effect/spawner/random/trash/mess,/obj/effect/spawner/random/trash/mess,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "uK" = (/obj/structure/table/wood/fancy,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"uN" = (/obj/effect/decal/cleanable/blood/trails{dir = 4},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "uS" = (/obj/structure/table/reinforced,/obj/item/bodypart/chest/robot/android,/obj/item/bodypart/arm/right/robot/android,/obj/item/stock_parts/power_store/cell/bluespace,/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "uY" = (/obj/structure/cable,/obj/structure/disposalpipe/segment,/turf/open/floor/light/colour_cycle/dancefloor_a,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "vj" = (/obj/structure/rack,/obj/item/clothing/mask/breath,/obj/item/clothing/mask/breath,/obj/item/clothing/mask/breath,/obj/item/clothing/mask/breath,/obj/item/clothing/mask/breath,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "vk" = (/obj/structure/cable,/obj/machinery/computer/security{id_tag = 5; network = list("FNAF")},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
+"vn" = (/obj/structure/table/wood/fancy,/obj/item/plate/large,/obj/item/food/pizza/donkpocket,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "vo" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "vr" = (/obj/structure/table/reinforced,/obj/item/light/tube/broken,/obj/item/implant/radio,/obj/item/implant/radio,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "vR" = (/obj/machinery/vending/games,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "vV" = (/obj/item/storage/belt/utility,/obj/item/storage/belt/utility,/obj/item/storage/belt/utility,/obj/structure/closet/cardboard,/obj/effect/spawner/random/engineering/toolbox,/obj/effect/spawner/random/engineering/toolbox,/obj/effect/spawner/random/engineering/toolbox,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
-"vY" = (/obj/effect/landmark/navigate_destination{location = Entrance},/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
+"vY" = (/obj/effect/landmark/navigate_destination{location = Entrance; name = "Lobby"},/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
 "wb" = (/obj/structure/closet/cardboard,/obj/item/holochip/thousand,/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "wh" = (/obj/structure/disposalpipe/segment,/obj/structure/mineral_door/wood,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "wk" = (/obj/structure/closet/crate/cardboard,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
@@ -233,30 +255,36 @@
 "wp" = (/obj/effect/spawner/random/trash/caution_sign,/obj/structure/cable,/turf/open/floor/iron/smooth_corner{dir = 4},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "wt" = (/obj/structure/cable,/obj/effect/mapping_helpers/broken_machine,/obj/machinery/computer/monitor,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "ww" = (/obj/effect/spawner/structure/window/reinforced,/obj/effect/mapping_helpers/damaged_window,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
-"wz" = (/obj/machinery/power/apc/auto_name/directional/south{critical_machine = 1; auto_name = 0; name = "Gravity Generator"; arc_shielded = 1},/obj/structure/cable,/obj/structure/closet/crate/cardboard,/obj/effect/mapping_helpers/apc,/obj/effect/mapping_helpers/apc/syndicate_access,/obj/effect/mapping_helpers/apc/cell_10k,/obj/effect/mapping_helpers/apc/full_charge,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"wx" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
+"wz" = (/obj/machinery/power/apc/auto_name/directional/south{critical_machine = 1; auto_name = 0; name = "Power Room"; arc_shielded = 1},/obj/structure/cable,/obj/structure/closet/crate/cardboard,/obj/effect/mapping_helpers/apc,/obj/effect/mapping_helpers/apc/cell_10k,/obj/effect/mapping_helpers/apc/full_charge,/obj/effect/mapping_helpers/apc/unlocked,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "wA" = (/obj/structure/cable,/obj/structure/curtain/cloth/fancy/mechanical{id = 4},/obj/structure/railing,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "wF" = (/obj/structure/falsewall/reinforced,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
 "wL" = (/obj/structure/table/wood,/obj/structure/desk_bell{pixel_x = 6},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "wM" = (/mob/living/basic/trooper/syndicate/ranged/smg/space/stormtrooper,/turf/open/floor/mineral/plastitanium,/area/space)
 "wO" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Main Storage"})
 "wS" = (/obj/structure/cable,/obj/machinery/light/dim/directional/west,/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
-"xb" = (/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_torso,/obj/item/mecha_parts/part/savannah_ivanov_head,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"xb" = (/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_torso,/obj/item/mecha_parts/part/savannah_ivanov_head,/obj/item/mecha_parts/part/savannah_ivanov_left_arm,/obj/item/mecha_parts/part/savannah_ivanov_right_arm,/obj/item/mecha_parts/part/savannah_ivanov_left_leg,/obj/item/mecha_parts/part/savannah_ivanov_right_leg,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "xc" = (/obj/machinery/mechpad,/obj/vehicle/sealed/mecha/marauder/mauler/loaded,/obj/structure/cable,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
-"xe" = (/obj/machinery/vending/hotdog,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"xo" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/thrusters,/obj/item/mecha_parts/camera_kit,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"xe" = (/obj/machinery/vending/hotdog,/obj/structure/cable,/obj/structure/cable,/obj/effect/mapping_helpers/broken_machine,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"xo" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/thrusters,/obj/item/mecha_parts/camera_kit,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "xy" = (/obj/structure/sign/poster/contraband/power/directional/east,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
+"xI" = (/obj/structure/table/wood/fancy,/obj/item/reagent_containers/cup/glass,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"xM" = (/obj/structure/table/wood/fancy,/obj/item/plate,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "xS" = (/obj/structure/cable,/obj/item/implant/radio,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "xZ" = (/obj/structure/cable,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "yb" = (/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "yf" = (/obj/structure/table/wood/fancy,/obj/effect/spawner/random/food_or_drink/any_snack_or_beverage,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "yq" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "yr" = (/obj/machinery/door/airlock/external/glass,/obj/effect/mapping_helpers/airlock/access/all/syndicate,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
-"yt" = (/obj/machinery/vending/donksnack,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"yE" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/repair_droid,/obj/item/mecha_parts/mecha_equipment/extinguisher,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"yt" = (/obj/machinery/vending/donksnack,/obj/structure/cable,/obj/structure/cable,/obj/effect/mapping_helpers/broken_machine,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"yA" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/item/reagent_containers/cup/glass,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"yE" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/repair_droid,/obj/item/mecha_parts/mecha_equipment/extinguisher,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "yQ" = (/mob/living/basic/trooper/syndicate/ranged/space/stormtrooper,/turf/open/floor/mineral/plastitanium,/area/space)
 "yX" = (/obj/structure/cable,/obj/structure/closet/crate/cardboard,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"za" = (/obj/effect/landmark/navigate_destination/tools,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
+"za" = (/obj/effect/landmark/navigate_destination/tools{name = "Main Storage"},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "zg" = (/turf/open/space/basic,/area/space)
+"zl" = (/obj/machinery/power/port_gen/pacman/pre_loaded{power_gen = 30000},/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
+"zx" = (/obj/machinery/gravity_generator/main{critical_machine = 1},/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Gravity Generator"})
 "zz" = (/obj/machinery/oven/range,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "zF" = (/obj/machinery/bluespace_vendor/directional/north,/obj/structure/cable,/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk{dir = 4},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "zJ" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Hall West"})
@@ -283,15 +311,20 @@
 "Bo" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 5},/obj/machinery/flasher/directional/west{id = 2; active_power_usage = 3000},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
 "Bs" = (/obj/machinery/light/broken/directional/north,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Bt" = (/obj/structure/sign/departments/restroom/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"Bw" = (/obj/structure/cable,/obj/effect/decal/cleanable/traitor_rune/traitor,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Bw" = (/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Gravity Generator"})
 "BF" = (/obj/structure/cable,/obj/machinery/door/window/left/directional/east,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "BM" = (/obj/structure/chair/bronze,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "BQ" = (/obj/structure/cable,/obj/machinery/camera{c_tag = "Party Room East"; dir = 10; network = list("FNAF")},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "BU" = (/obj/machinery/door/airlock/highsecurity{name = "MANAGEMENT ONLY"; req_access = list("syndicate"); critical_machine = 1},/obj/effect/mapping_helpers/airlock/access/all/syndicate,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
+"BV" = (/obj/structure/rack,/obj/item/bodybag,/obj/item/circuitboard/machine/medical_kiosk,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "BY" = (/obj/effect/decal/cleanable/blood/splatter,/obj/structure/spider/stickyweb/very_sticky,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
+"Cd" = (/obj/machinery/iv_drip,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
+"Cg" = (/obj/structure/closet/generic/wall,/mob/living/basic/cockroach,/obj/item/reagent_containers/syringe/epinephrine,/obj/item/reagent_containers/cup/bottle/epinephrine,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "Ch" = (/mob/living/basic/cockroach,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "Ci" = (/obj/structure/disposalpipe/junction/flip,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"Cp" = (/obj/structure/chair/comfy/black{dir = 4},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "Cq" = (/obj/structure/table,/obj/machinery/microwave,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
+"Cv" = (/obj/structure/table/wood/fancy,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/item/reagent_containers/cup/glass,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Cz" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/curtain/cloth/fancy/mechanical{id = 4},/obj/structure/railing,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "CA" = (/obj/machinery/vending/wardrobe/chef_wardrobe,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "CE" = (/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
@@ -307,11 +340,13 @@
 "Dt" = (/turf/open/floor/iron/smooth_edge/airless{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Du" = (/obj/effect/mapping_helpers/airlock/access/all/syndicate,/obj/machinery/door/airlock/highsecurity{name = "MANAGEMENT ONLY"; req_access = list("syndicate"); critical_machine = 1},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "Dw" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 8},/turf/open/floor/light/colour_cycle/dancefloor_a,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"Dx" = (/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"Dx" = (/obj/effect/landmark/navigate_destination{name = "Emergency Treatment"},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
+"Dz" = (/obj/structure/table/wood/fancy,/obj/item/plate,/obj/item/food/pizzaslice/moldy/bacteria,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "DA" = (/obj/structure/cable,/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "DG" = (/obj/structure/cable,/obj/structure/table/wood,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "DH" = (/obj/structure/closet/cardboard,/obj/item/reagent_containers/cup/rag{pixel_x = -4},/obj/item/reagent_containers/cup/rag{pixel_x = -4},/obj/item/reagent_containers/cup/rag{pixel_x = -4},/obj/item/reagent_containers/cup/rag{pixel_x = -4},/obj/item/reagent_containers/cup/rag{pixel_x = -4},/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "DM" = (/obj/structure/cable,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
+"DQ" = (/obj/structure/closet/generic/wall,/obj/item/clothing/gloves/latex,/obj/item/stack/medical/gauze{pixel_x = 8},/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "DT" = (/obj/structure/cable,/turf/open/floor/light/colour_cycle/dancefloor_a,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Ef" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 5},/turf/open/floor/light/colour_cycle/dancefloor_a,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Ek" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
@@ -319,13 +354,14 @@
 "Ew" = (/obj/structure/table/reinforced,/obj/item/mod/control/pre_equipped/contractor/upgraded,/obj/item/mod/module/springlock/bite_of_87,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "EK" = (/obj/structure/disposalpipe/segment,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "ET" = (/turf/open/floor/iron/dark/smooth_corner{dir = 4},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"EX" = (/obj/structure/cable,/obj/machinery/power/port_gen/pacman/pre_loaded{power_gen = 30000},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"EX" = (/obj/structure/table/glass,/obj/item/defibrillator/loaded,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "Fd" = (/turf/open/floor/iron/dark/smooth_half{dir = 4},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"Fg" = (/obj/machinery/power/smes,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"Fe" = (/obj/item/implant/radio,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Central Maintenance"})
+"Fg" = (/obj/structure/table/wood/fancy,/obj/item/plate/large,/obj/item/food/pizza/dank,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Fw" = (/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
 "Fy" = (/obj/structure/cable,/obj/structure/cable,/obj/machinery/camera{c_tag = "Party Room East"; dir = 10; network = list("FNAF")},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "FA" = (/obj/machinery/door/airlock/hatch,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/obj/structure/cable,/obj/structure/disposalpipe/segment,/obj/effect/mapping_helpers/airlock/access/any/security,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
-"FF" = (/obj/item/stock_parts/servo/femto,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"FF" = (/obj/item/stock_parts/servo/femto,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "FG" = (/obj/structure/table/reinforced,/obj/item/storage/toolbox/guncase/clandestine,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "FH" = (/obj/structure/cable,/obj/structure/mineral_door/wood,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "FI" = (/obj/structure/cable,/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Kitchen"})
@@ -337,7 +373,7 @@
 "FY" = (/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "Gb" = (/obj/structure/cable,/obj/machinery/door/airlock/highsecurity{name = "MANAGEMENT ONLY"; req_access = list("syndicate"); critical_machine = 1},/obj/effect/mapping_helpers/airlock/access/all/syndicate,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
 "Gc" = (/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"Gl" = (/obj/effect/landmark/navigate_destination{location = Backroom},/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
+"Gl" = (/obj/effect/landmark/navigate_destination{location = Backroom; name = "Parts & Service"},/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Gq" = (/obj/structure/cable,/turf/closed/indestructible/fakedoor,/area/station/maintenance/radshelter{name = "Lobby"})
 "Gz" = (/turf/open/floor/iron/dark/smooth_corner{dir = 8},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "GD" = (/turf/open/floor/iron/dark/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
@@ -347,7 +383,9 @@
 "GS" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "GT" = (/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "GX" = (/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"Hb" = (/obj/structure/bed/double/pelt/black,/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "Hn" = (/obj/structure/rack,/obj/item/circuit_component/camera,/obj/item/computer_disk/maintenance/camera,/obj/item/tape,/obj/item/tape,/obj/item/crowbar/large/heavy,/obj/item/tape,/obj/item/computer_disk/security,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
+"Hx" = (/obj/structure/cable,/obj/machinery/power/port_gen/pacman/pre_loaded{power_gen = 30000},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "HI" = (/obj/machinery/vending/snack,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "HJ" = (/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
 "HM" = (/obj/structure/table/reinforced,/obj/item/melee/baton/telescopic/contractor_baton,/obj/machinery/button/door/indestructible{id = 10; critical_machine = 1; pixel_x = -6; name = "ENTRANCE LOCK"},/obj/machinery/button/door/indestructible{name = "PANIC BUTTON"; pixel_x = 6; id = 11},/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
@@ -367,19 +405,21 @@
 "Js" = (/obj/structure/tank_holder/extinguisher,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "Jt" = (/obj/structure/rack,/obj/item/book/manual/wiki/robotics_cyborgs,/obj/item/storage/toolbox/mechanical{pixel_x = -3; pixel_y = 3},/obj/item/storage/toolbox/electrical,/obj/item/multitool,/obj/item/clothing/head/utility/welding,/obj/item/clothing/glasses/welding,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Ju" = (/obj/structure/bookcase/random/reference,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
-"Jw" = (/obj/machinery/disposal/bin,/obj/structure/cable,/obj/structure/disposalpipe/trunk{dir = 4},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"Jy" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"Jw" = (/obj/machinery/disposal/bin,/obj/structure/cable,/obj/structure/disposalpipe/trunk{dir = 4},/obj/item/food/pizza/pineapple/raw,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
+"Jy" = (/obj/effect/spawner/random/trash/mess,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "JB" = (/obj/structure/cable,/obj/structure/sign/poster/contraband/calada_jelly/directional/west,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "JC" = (/obj/structure/spider/eggcluster,/obj/structure/spider/stickyweb/very_sticky,/obj/structure/cable,/obj/item/circuitboard/mecha/savannah_ivanov/main,/obj/item/holochip/thousand,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
+"JK" = (/obj/structure/table/wood,/obj/machinery/fax/admin/syndicate{pixel_y = 5},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "JP" = (/obj/machinery/vending/clothing,/obj/structure/cable,/turf/open/floor/iron/dark/smooth_edge{dir = 1},/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "JT" = (/obj/structure/sign/poster/contraband/interdyne_gene_clinics/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Kb" = (/obj/structure/sign/poster/contraband/syndicate_recruitment/directional/west,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
-"Kg" = (/obj/structure/table/wood/fancy,/obj/effect/spawner/random/food_or_drink/pizzaparty,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"Kg" = (/obj/structure/table/wood/fancy,/obj/item/plate/large,/obj/item/food/pizza/sassysage,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"Kh" = (/obj/structure/table/wood/fancy,/obj/item/plate/large,/obj/item/food/pizza/mushroom,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Kk" = (/obj/structure/rack,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/obj/item/clothing/head/costume/party,/mob/living/basic/spider/maintenance,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "Kn" = (/obj/structure/spider/stickyweb/very_sticky,/obj/structure/cable,/obj/item/fireaxe,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
 "Ko" = (/obj/item/bot_assembly/firebot,/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Kp" = (/obj/machinery/light/broken/directional/east,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"Kq" = (/obj/structure/cable,/obj/structure/rack,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/uranium/five,/obj/item/stack/sheet/mineral/uranium/five,/obj/machinery/light/cold/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Kq" = (/obj/structure/cable,/obj/structure/rack,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/diamond/five,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/gold,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/silver,/obj/item/stack/sheet/mineral/uranium/five,/obj/item/stack/sheet/mineral/uranium/five,/obj/machinery/light/red/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "KA" = (/obj/structure/disposalpipe/segment{dir = 9},/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
 "KC" = (/obj/machinery/light/broken/directional/west,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "KF" = (/obj/structure/spider/spikes,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
@@ -387,30 +427,33 @@
 "KP" = (/obj/structure/table,/obj/structure/cable,/obj/item/implant/radio,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "KS" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 8},/turf/open/floor/light/colour_cycle,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "KT" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/smooth_edge/airless,/area/station/maintenance/radshelter{name = "Parts & Service"})
-"KV" = (/obj/structure/disposalpipe/segment{dir = 10},/obj/effect/landmark/navigate_destination/sec,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
+"KV" = (/obj/structure/disposalpipe/segment{dir = 10},/obj/effect/landmark/navigate_destination/sec{name = "Security Office"},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "KW" = (/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
 "KX" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "KZ" = (/obj/structure/disposalpipe/junction{dir = 4},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "La" = (/obj/structure/table/reinforced/plastitaniumglass,/obj/item/flashlight/lamp/green{pixel_x = 1; pixel_y = 5},/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "Lc" = (/obj/structure/rack,/obj/item/bodypart/arm/left/robot/android,/turf/open/floor/iron/smooth_half,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Lj" = (/obj/structure/curtain/cloth/fancy/mechanical{id = 3},/obj/structure/railing{dir = 6},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
+"Lk" = (/turf/closed/wall/r_wall,/area/space)
 "Lm" = (/obj/structure/rack,/obj/item/flashlight/seclite,/obj/item/flashlight/seclite,/obj/item/flashlight/seclite,/obj/item/flashlight/seclite,/obj/item/flashlight/seclite,/obj/structure/sign/poster/contraband/interdyne_gene_clinics/directional/east,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "Ln" = (/obj/structure/rack,/obj/item/soap/nanotrasen,/obj/item/soap/nanotrasen,/obj/item/soap/nanotrasen,/obj/item/soap/nanotrasen,/obj/item/soap/nanotrasen,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "Lr" = (/obj/structure/cable,/obj/structure/sign/poster/contraband/moffuchis_pizza/directional/north,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Lt" = (/obj/machinery/vending/donksofttoyvendor,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Lv" = (/obj/structure/spider/stickyweb/very_sticky,/obj/item/food/deadmouse,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
-"Lw" = (/obj/structure/table/reinforced/rglass,/obj/item/organ/internal/brain/synth/mmi,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Lw" = (/obj/structure/table/reinforced/rglass,/obj/item/mmi/syndie,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Lz" = (/obj/structure/curtain/cloth/fancy/mechanical{id = 3},/obj/structure/railing{dir = 5},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
-"LA" = (/obj/machinery/mechpad,/obj/structure/mecha_wreckage/savannah_ivanov,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"LA" = (/obj/machinery/mechpad,/obj/structure/mecha_wreckage/savannah_ivanov{name = "Mechatronic Wreckage"},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "LC" = (/obj/structure/cable,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "LN" = (/obj/effect/decal/cleanable/blood/gibs/limb,/obj/structure/spider/stickyweb/very_sticky,/obj/structure/disposalpipe/trunk{dir = 1},/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
 "LY" = (/obj/structure/cable,/obj/structure/rack,/obj/item/stack/sheet/iron/fifty,/obj/item/stack/sheet/iron/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/plasteel/fifty,/obj/item/stack/sheet/mineral/titanium/fifty,/obj/item/stack/sheet/mineral/titanium/fifty,/obj/item/stack/sheet/plastic/fifty,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Mb" = (/obj/vehicle/sealed/mecha/gygax/dark/loaded{name = "Foxy McHackin'"; desc = "A lightweight exosuit, painted in a dark scheme. This model's armor has been upgraded with a cutting-edge armor composite, resulting in greater protection and performance at the cost of modularity. This mech seems to be malfunctioning, shying away from flashes of light."},/obj/effect/mapping_helpers/broken_floor,/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Secondary Stage"})
+"Mc" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/item/reagent_containers/cup/glass,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Me" = (/obj/structure/disposalpipe/segment{dir = 8},/obj/structure/sign/poster/contraband/eat/directional/south,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Mi" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 6},/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/iron/smooth_corner,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Mm" = (/obj/structure/table/reinforced/rglass,/obj/structure/table/reinforced/rglass,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Mn" = (/obj/machinery/button/curtain{id = 4},/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "Mq" = (/obj/structure/cable,/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
+"Mu" = (/obj/structure/table/wood,/obj/item/paper_bin{pixel_y = 5; pixel_x = -3},/obj/item/pen/sleepy{pixel_x = 7},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "Mw" = (/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Central Maintenance"})
 "MA" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/light/colour_cycle/dancefloor_b,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "MJ" = (/obj/machinery/computer/operating{dir = 8; critical_machine = 1},/obj/structure/cable,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
@@ -424,10 +467,11 @@
 "Nl" = (/obj/structure/rack,/obj/item/mod/module/springlock/bite_of_87,/obj/item/mod/module/springlock,/obj/effect/decal/cleanable/blood/gibs,/turf/open/floor/iron/smooth_half,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Nm" = (/obj/structure/closet/cardboard,/obj/item/stock_parts/power_store/cell/bluespace,/turf/open/floor/iron/kitchen_coldroom,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
 "Ns" = (/obj/machinery/photocopier{pixel_y = 3},/obj/structure/cable,/obj/structure/table/wood,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
-"Nt" = (/obj/machinery/mech_bay_recharge_port{critical_machine = 1},/obj/structure/cable,/obj/machinery/light/cold/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Nt" = (/obj/machinery/mech_bay_recharge_port{critical_machine = 1},/obj/structure/cable,/obj/machinery/light/red/directional/north,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Nv" = (/obj/effect/decal/cleanable/blood,/obj/structure/spider/stickyweb/very_sticky,/mob/living/basic/spider/giant/ambush,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
+"NB" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/item/plate,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "NC" = (/obj/structure/rack,/obj/item/robot_suit,/turf/open/floor/iron/smooth_half,/area/station/maintenance/radshelter{name = "Parts & Service"})
-"NE" = (/obj/structure/extinguisher_cabinet/directional/north,/obj/machinery/light/cold/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
+"NE" = (/obj/structure/extinguisher_cabinet/directional/north,/obj/machinery/light/red/directional/north,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "NJ" = (/obj/structure/cable,/obj/structure/disposalpipe/junction/yjunction,/turf/open/floor/light/colour_cycle/dancefloor_b,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "NK" = (/obj/structure/sign/poster/contraband/interdyne_gene_clinics/directional/north,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "NP" = (/obj/structure/cable,/obj/structure/sign/poster/contraband/syndicate_medical/directional/east,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
@@ -438,18 +482,19 @@
 "Og" = (/obj/machinery/light/broken/directional/west,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Oi" = (/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "Ou" = (/obj/structure/spider/stickyweb/very_sticky,/obj/item/food/deadmouse,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
+"Ov" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate/large,/obj/item/food/pizzabread,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "OA" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/effect/spawner/random/food_or_drink/cups,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "OE" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Central Maintenance"})
-"OF" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Generator Room"})
+"OF" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "OI" = (/obj/structure/table/reinforced/plastitaniumglass,/obj/structure/cable,/obj/item/implant/radio,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
 "OJ" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
 "OO" = (/turf/open/floor/iron/dark/smooth_corner{dir = 1},/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "OP" = (/obj/structure/cable,/obj/machinery/light/red/dim/directional/east,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
-"OS" = (/obj/structure/cable,/obj/structure/chair/comfy/black{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"OS" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/reagent_containers/cup/glass,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "OT" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "OV" = (/obj/structure/cable,/obj/machinery/mecha_part_fabricator{dir = 4},/obj/machinery/mecha_part_fabricator{dir = 4; critical_machine = 1},/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "OW" = (/obj/structure/sign/poster/contraband/pizza_imperator/directional/east,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
-"Pc" = (/obj/effect/landmark/navigate_destination{location = Generator},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"Pc" = (/obj/effect/decal/cleanable/blood/tracks{dir = 4},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "Pd" = (/obj/structure/sign/poster/contraband/free_tonto/directional/north,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Pf" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Hall East"})
 "Ph" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Kitchen Maintenance"})
@@ -457,7 +502,7 @@
 "Ps" = (/obj/structure/cable,/obj/structure/mecha_wreckage/reticence{move_resist = 10000},/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Pt" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Bathroom A"})
 "Pu" = (/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
-"Pw" = (/obj/structure/cable,/obj/machinery/light/cold/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Pw" = (/obj/structure/cable,/obj/machinery/light/red/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Px" = (/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "PH" = (/obj/structure/table,/obj/machinery/smartfridge/drying,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "PI" = (/obj/structure/closet/cardboard,/obj/item/stack/sheet/plasteel/fifty,/obj/item/stack/sheet/mineral/titanium/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
@@ -465,7 +510,7 @@
 "PN" = (/obj/machinery/light/broken/directional/south,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "PP" = (/obj/structure/cable,/obj/effect/spawner/random/clothing/wardrobe_closet,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
 "PQ" = (/turf/open/floor/plating,/area/space/nearstation)
-"PT" = (/obj/structure/sign/poster/contraband/borg_fancy_1/directional/east,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
+"PT" = (/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
 "PV" = (/obj/effect/decal/cleanable/blood/gibs,/obj/structure/spider/stickyweb/very_sticky,/obj/effect/mob_spawn/corpse/human/engineer/mod,/obj/item/holochip/thousand{credits = 5347},/obj/item/flamethrower/full/tank,/turf/open/floor/iron/shuttle/exploration/hazard,/area/station/maintenance/radshelter{name = "Disposals"})
 "PW" = (/obj/structure/cable,/turf/open/floor/light/colour_cycle,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "PX" = (/obj/structure/spider/stickyweb/very_sticky,/obj/item/implant/radio,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
@@ -474,8 +519,10 @@
 "Qg" = (/obj/machinery/power/apc/auto_name/directional/north{auto_name = 0; name = "Power"},/obj/structure/cable,/obj/effect/mapping_helpers/apc/unlocked,/obj/effect/mapping_helpers/apc/full_charge,/obj/effect/mapping_helpers/apc,/obj/effect/mapping_helpers/apc/cell_10k,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "Qq" = (/obj/structure/disposalpipe/segment{dir = 10},/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Qr" = (/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
-"Qx" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/effect/spawner/random/food_or_drink/pizzaparty,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"QG" = (/obj/effect/landmark/navigate_destination{location = Bathrooms},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
+"Qt" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate/large,/obj/item/food/pizza/arnold,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"Qu" = (/obj/structure/sign/poster/contraband/gorlex_recruitment/directional/north,/turf/open/floor/carpet/royalblack,/area/space/nearstation)
+"Qx" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate,/obj/item/food/pizzaslice/moldy,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"QG" = (/obj/effect/landmark/navigate_destination{location = Bathrooms; name = "Bathroom Hall"},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "QT" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/light/colour_cycle/dancefloor_a,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Rf" = (/obj/machinery/light/broken/directional/west,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "Rj" = (/obj/structure/disposalpipe/segment{dir = 8},/obj/structure/cable,/obj/structure/sign/poster/contraband/shamblers_juice/directional/south,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
@@ -506,25 +553,25 @@
 "ST" = (/obj/structure/table/reinforced/rglass,/obj/item/disk/surgery/debug,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "SV" = (/obj/effect/spawner/random/trash/mess,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "SY" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom B"})
-"Ta" = (/obj/machinery/door/airlock/grunge,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
+"Ta" = (/obj/machinery/door/airlock/highsecurity{name = "MANAGEMENT ONLY"; req_access = list("syndicate"); critical_machine = 1},/obj/effect/mapping_helpers/airlock/access/all/syndicate,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
 "Tg" = (/obj/structure/cable,/obj/machinery/mecha_part_fabricator{dir = 4; critical_machine = 1},/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Tk" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom A"})
 "Tw" = (/obj/structure/closet/cardboard,/obj/item/stack/sheet/iron/fifty,/obj/item/stack/sheet/iron/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/glass/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
 "Ty" = (/obj/structure/chair/office{dir = 1},/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "TA" = (/obj/structure/table/reinforced/rglass,/obj/item/defibrillator/loaded,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
-"TC" = (/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_right_arm,/obj/item/mecha_parts/part/savannah_ivanov_left_arm,/obj/item/implant/radio,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"TC" = (/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "TD" = (/obj/machinery/griddle,/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "TF" = (/obj/machinery/bluespace_vendor/directional/north,/obj/structure/cable,/obj/structure/cable,/obj/machinery/disposal/bin,/obj/structure/disposalpipe/trunk{dir = 2},/turf/open/floor/iron/dark/smooth_corner,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "TM" = (/obj/effect/mapping_helpers/broken_floor,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
-"TN" = (/obj/structure/cable,/obj/effect/landmark/navigate_destination/engineering,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
+"TN" = (/obj/structure/cable,/obj/effect/landmark/navigate_destination/engineering{name = "Emergency Storage"},/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "TR" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "TV" = (/obj/structure/cable,/obj/structure/disposalpipe/segment{dir = 4},/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Uc" = (/obj/structure/table,/obj/machinery/microwave,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"Ug" = (/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"Ug" = (/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "Ui" = (/obj/structure/sign/poster/contraband/lamarr/directional/east,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "Um" = (/obj/machinery/vending/tool,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
-"Uq" = (/obj/structure/table/reinforced,/obj/item/extinguisher/mini,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
-"Uu" = (/obj/structure/table/reinforced,/obj/structure/cable,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Uq" = (/obj/machinery/computer/camera_advanced{networks = list("FNAF, FNAFSynd"); critical_machine = 1},/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"Uu" = (/obj/structure/table/reinforced,/obj/structure/cable,/obj/item/extinguisher/mini,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Uv" = (/obj/machinery/deepfryer,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "Ux" = (/obj/structure/table/wood,/obj/item/modular_computer/laptop/preset/civilian,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "UB" = (/obj/machinery/vending/medical,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Main Storage"})
@@ -535,12 +582,15 @@
 "US" = (/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Va" = (/obj/machinery/vending/coffee,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Vh" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Kitchen Cold Storage"})
+"Vl" = (/obj/structure/sign/poster/contraband/borg_fancy_1/directional/east,/obj/machinery/camera/autoname/motion/directional/east{critical_machine = 1; network = list("FNAFSynd")},/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab Entrance"})
 "Vn" = (/obj/vehicle/sealed/mecha/justice/loaded{name = "Captain MechFred"; desc = "Black and red syndicate mech designed for execution orders. For safety reasons, the syndicate advises against standing too close. This mech seems to lack motion sensors like the rest, but is unusually sensitive to sound."},/obj/machinery/light/floor,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "Vq" = (/obj/structure/closet/crate/cardboard,/obj/item/stock_parts/scanning_module/triphasic,/turf/open/floor/iron/dark/smooth_corner{dir = 4},/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "Vt" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Vv" = (/obj/structure/mineral_door/wood,/obj/structure/cable,/obj/machinery/door/poddoor/preopen{active_power_usage = 1000; desc = "A heavy duty blast door. That should keep you safe. Right?"; id = 10},/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Hall West"})
 "VC" = (/obj/structure/spider/stickyweb/very_sticky,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
+"VL" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "VM" = (/obj/structure/rack,/obj/machinery/light/broken/directional/west,/obj/item/storage/box/ingredients/random,/obj/item/storage/box/ingredients/random,/obj/item/storage/box/ingredients/random,/obj/item/storage/box/ingredients/random,/obj/item/storage/box/ingredients/random,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
+"VN" = (/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "VO" = (/obj/structure/table/reinforced,/obj/item/camera,/obj/item/lighter/greyscale,/obj/item/taperecorder/empty,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "VR" = (/obj/structure/sign/poster/contraband/interdyne_gene_clinics/directional/west,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "VT" = (/obj/structure/spider/stickyweb/very_sticky,/mob/living/basic/spider/maintenance,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Security Maintenance"})
@@ -552,14 +602,14 @@
 "Wn" = (/obj/structure/table,/obj/machinery/chem_master/condimaster{name = "CondiMaster Neo"},/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "Wp" = (/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Kitchen Maintenance"})
 "WA" = (/obj/effect/mapping_helpers/burnt_floor,/obj/machinery/light/floor/broken,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
-"WD" = (/obj/structure/rack,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/item/stack/sheet/mineral/plasma/thirty,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Generator Room"})
+"WD" = (/obj/structure/table/optable,/obj/effect/decal/cleanable/blood/splatter,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "WH" = (/obj/machinery/deepfryer,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
 "WT" = (/obj/structure/mineral_door/wood,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Bathroom A"})
 "WZ" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Xa" = (/obj/structure/disposalpipe/segment{dir = 4},/obj/machinery/door/poddoor/preopen{active_power_usage = 1000; desc = "A heavy duty blast door. That should keep you safe. Right?"},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "Xh" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/disposalpipe/segment,/obj/machinery/camera{c_tag = "Parts & Service"; dir = 6; network = list("FNAF")},/turf/open/floor/iron/smooth_half{dir = 1},/area/station/maintenance/radshelter{name = "Parts & Service"})
 "Xk" = (/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
-"Xo" = (/obj/structure/cable,/obj/item/stock_parts/power_store/cell/infinite,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Grav Gen"})
+"Xo" = (/obj/structure/table/wood,/obj/item/gun/ballistic/automatic/pistol/m1911{pixel_y = 4},/obj/item/flashlight/lamp/green{pixel_x = 1; pixel_y = 5},/turf/open/floor/carpet/royalblack,/area/space/nearstation)
 "Xr" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Lobby"})
 "Xt" = (/obj/structure/closet/cardboard,/obj/item/stack/sheet/plastic/fifty,/obj/item/stack/sheet/plastic/fifty,/obj/item/stack/sheet/rglass/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
 "Xv" = (/obj/structure/spider/stickyweb/very_sticky,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Hidden Room Central"})
@@ -571,6 +621,7 @@
 "XH" = (/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "XL" = (/turf/open/floor/iron/dark/smooth_edge{dir = 1},/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "XN" = (/obj/effect/mapping_helpers/burnt_floor,/obj/structure/cable,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"XR" = (/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Central Maintenance"})
 "XV" = (/obj/structure/cable,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Yb" = (/obj/machinery/door/airlock/hatch,/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Central Maintenance"})
 "Yj" = (/obj/effect/mapping_helpers/burnt_floor,/obj/structure/sign/poster/contraband/clown/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
@@ -585,13 +636,17 @@
 "YH" = (/obj/structure/cable,/obj/structure/cable,/obj/item/pet_carrier,/obj/item/pet_carrier,/obj/item/pet_carrier,/obj/item/pet_carrier,/obj/item/pet_carrier,/obj/item/pet_carrier,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "YO" = (/obj/structure/cable,/turf/open/floor/carpet/orange,/area/station/maintenance/radshelter{name = "Lobby"})
 "YQ" = (/obj/structure/table/wood/fancy,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/obj/effect/mapping_helpers/burnt_floor,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"YU" = (/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Gravity Generator"})
+"YZ" = (/obj/effect/decal/cleanable/blood/trails,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Emergency Treatment"})
 "Zj" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "Zm" = (/obj/machinery/light/broken/directional/north,/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "Zs" = (/obj/effect/spawner/random/trash/mess,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Kitchen"})
-"Zx" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/effect/spawner/random/food_or_drink/pizzaparty,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
+"Zv" = (/obj/machinery/power/smes/battery_pack/large/precharged,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
+"Zx" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/green,/obj/item/plate/large,/obj/item/food/pizza/energy,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "ZC" = (/obj/structure/table/reinforced,/obj/item/flashlight/lamp{pixel_x = -5; pixel_y = 5},/obj/machinery/light/broken/directional/north,/obj/structure/cable,/obj/machinery/light_switch{pixel_x = 9},/obj/structure/sign/poster/contraband/dancing_honk/directional/north,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Security Office"})
 "ZE" = (/turf/closed/indestructible/syndicate,/area/space/nearstation)
 "ZG" = (/obj/machinery/computer/emergency_shuttle{dir = 8},/obj/structure/cable,/obj/structure/cable,/turf/open/floor/carpet/royalblack,/area/station/maintenance/radshelter{name = "Manager's Office"})
+"ZN" = (/obj/structure/table/wood/fancy,/obj/structure/table/wood/fancy/royalblue,/obj/item/plate/large,/obj/item/food/pizza/margherita,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "ZP" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Bathroom Hall"})
 "ZW" = (/obj/structure/rack,/obj/item/bodypart/leg/right/robot/android,/obj/item/bodypart/leg/left/robot/android,/turf/open/floor/iron/smooth_half,/area/station/maintenance/radshelter{name = "Parts & Service"})
 "ZY" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Primary Stage"})
@@ -615,29 +670,29 @@ zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvuAlBUKxcNtAFpjtJsujdSaKMKMnwuAkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvyQjkKMybybybybybstybsZXATAMmKMjkAWkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvuATgybFGUqomybstybybgNRWiSKMuAkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvuACSAZUufmOSAZstAZBwAZcEAEOPuAkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvuACSAZUufmAZAZstAZAZbIcEAEOPuAkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvuAOVybqaEwHMybstybybybMJiSNPuAkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvwMjkKMybybybybybstybbgSTLwiSKMjkpkkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvuAJtbVLYKqiTQdXVKMPwKMKMKMSQuAkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvuAuAuAuAuApKpKGbpKpKuAuAuAuAuAkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvpKFwoHFwpKkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvPQPQPQkvpKKboHFwpKkvPQPQPQkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvpKFwoHPTpKkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEpKpKBUpKpKZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZErqrqrquhrqSMrqrqrqrqrqZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZErqNsmqmQmqdxmqNEmqpqrqZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEBwBwBwBwpKFwoHFwpKJKjyQupHZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgLkZEBwBwBwBwpKKboHVlpKMubJVNHbZELkzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgLkZEBwzxBwYUfCoHoHPTTaVNVNVNXoZELkzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgLkZEBwYUYUYUpKpKBUpKpKCpfHgHjQZELkzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgLkZEZErqrqrquhrqSMrqrqrqrqrqZEZELkzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgLkkvZErqNsmqmQmqdxmqNEmqpqrqZEkvLkzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZErqqKdxdxneBMZGdxdxqKrqZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZErqJumqmqUEOILamqmqJurqZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZErqJumqmqmqbFmqmqmqJurqZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZErqJumqoOdxdxdxoOmqJurqZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvkvkvkvkvkvkvZErqrqrqrqrqDurqrqrqrqrqZEkvkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEZEZEZEZEZEZEZEZEZEZEZYPuZYZEZEZEZEZEZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEZEZEZEZEZEZEZEZEZEZEZYmfZYZEZEZEZEZEZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZETRTRTRTRTRTRTRTRkvZYZYZYZYZYZYZYnrZYZYZYZYZYZYZYZYZYMnZYZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZETRbpQgGKoEaLPlTRPQZYPuPuPuPuPuPuPuPuPuPuPuPuPuPuTMSEnnZYZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZETRqsXkXkXkhSXwTRPQZYPuPuTMTMTMTMPuPuPuPuPuPuTMTMTMPuXHZYZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZETRvVXkXkJsTNXwTRPQZYPuTMTMnEITXHXHXHVnXHITXHXHjoXHXHXHZYZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvkvkvkvkvkvZETRDjDjXkTRTaTRTRPQZYPuTMTMTMPuPuPuTMPuPuTMTMPuPuPuPuXHZYZEkvkvkvkvkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEZEZEZEZEZETRmhmhXkTRhSTRPQPQZYPuPuPuPuPuPuPuTMPuPuPuTMPuPuPuPuXHZYZEZEZEZEZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZETRvVXkXkXkTNXwTRPQZYPuTMTMnEITXHXHXHVnXHITXHXHjoXHXHXHZYZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvkvkvkvkvkvZETRDjDjXkXkhSJsTRPQZYPuTMTMTMPuPuPuTMPuPuTMTMPuPuPuPuXHZYZEkvkvkvkvkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEZEZEZEZEZETRmhmhXkXkhSJskvPQZYPuPuPuPuPuPuPuTMPuPuPuTMPuPuPuPuXHZYZEZEZEZEZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREREREREREREREkvkvVtTRTRTRTRTRNQTRVtVtZYCzwAwAwAwAwAwAwAwAwAwAwAwAwAwAwAnWZYVtVtVtVtVtVtVtVtVtZEkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREhPnQuHNlIuREPQPQVtAKNKFRAKAKaIAKJpBsPdaIAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKbELrcKHIxevRDeVaytLtVtZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREKoPxPxPxSBREREREREAKAKAKAKAKaIAKAKAKAKaIAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKAKSzAKAKAKAKAKAKKpVtZPZPZPZPZPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
@@ -649,29 +704,29 @@ zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREoNUJYk
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREkcZWNCLcdGREPQPQVtaIAKAKAKAKAKAKAKAKAKaIAKSzAKAKAKAKAKaIAKAKAKGXAKaIAKAKAKAKAKAKAKaIAKAKBtVtSSrprpnSPtPtPtPtPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEREREREREREREREkvkvVtrVAKAKAKugugAKAKAKAKaIAKSzAKAKAKAKAKaIAKGXGXGXAKaIAKAKAKAKAKAKAKaIAKAKVUVtSSrprpnPPtqETkcnPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEZEZEZEZEVtfwAKAKAKAKAKAKAKAKAKaIAKSzAKAKAKAKAKaIGXRqRqGXAKaIAKAKAKAKAKAKAKaIAKAKJTVtSSrprpMYPtqEPtPtPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvkvkvkvkvZEVtaIAKAKAKAKcdZjZjZjmClPaIjwQxZjZjmCaIlPXBEkEkIUFXtzaIcdZjZjQxmCAKaIAKAKPLVtFTGTGTGTWTrPRORRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEVtaIAKAKAKAKcdhRvovomCAKXNjwvovovomCaIAKXBkwWZYuFXAKaIcdvovovomCAKaIAKAKAKVtSSrpQGrpuGqErPRRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvZEVtJBAKAKAKAKcduKuKuKmCAKXNjwuKuKKgmCaIAKcdYQmxWaFXAKaIcdKguKWamCAKLCAKAKAKVtSSrprpnPPtqErPRRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEVtOgAKAKAKAKcdQxZjOAAqXNbEjwQxZjZjmCtzbEXBbKIUIUFXaItzcdZjZjZjmCAKLCAKAKYjVtSSrprpnPPtqErPRRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmwmgVwmwmaIAKAKAKAKcdvovovomCaIAKjwvovohRmCAKaIcdWZYuWZGNaIAKcdvovovomCAKaIGXAKcIVtSSrprpnPPtPtPtPtPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmoIifififLzAKAKAKAKcduKuKKgmCaIAKjwWauKKgmCAKaIXBAQAQAQGNaIAKcduKuKuKmCAKaIGXGXGXVtSSrprpnPZPPQPQPQkvZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmHTHTHTHTHTnDAKAKAKcdZjZjkhmCtzbEjwZjZjZjmCaItzXBZjIUIUGNWAaIcdOAZjQxmCAKaIAKGXevVtSSrprpnPZPPQPQPQkvZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmKWKWMbrXHTlUAKAKAKcdhRvovomCAKaIjwZxvovomCaIAKcdvoKXgmFXGXaIcdvovovomCAKaIAKAKSqVtSSrprpnPtItItItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmKWrXKWKWHTlUAKAKAKcduKuKKgmCAKaIjwyfuKuKmCaIAKcduKpipiFXGXaIcdKguKKgmCAKaIAKAKPLVtSSrprpnPtIqmSYcStIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmHTKWKWKWHTLjAKAKAKcdQxZjZjmCAKtzjwZjOAQxmCtzAKcdIUEkQxFXUStzcdZjZjZjmCAKaIAKAKAKVtSSrprpMYtIqmtItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvkvkvkvkvZEVtaIAKAKAKAKcdZjZjZjmClPaIjwiEZjZjmCaIlPXBEkEkIUFXtzaIcdZjZjOvmCAKaIAKAKPLVtFTGTGTGTWTrPRORRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEVtaIAKAKAKAKcdhRvoNBmCAKXNjwvovovomCaIAKXBkwWZYuFXAKaIcdvovovomCAKaIAKAKAKVtSSrpQGrpuGqErPRRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvZEVtJBAKAKAKAKcdxIuKuKmCAKXNjwuKuKcxmCaIAKcdYQmxWaFXAKaIcdKhuKWamCAKLCAKAKAKVtSSrprpnPPtqErPRRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEVtOgAKAKAKAKcdQtZjOAAqXNbEjwpZZjZjmCtzbEXBbKIUIUFXaItzcdOSZjZjmCAKLCAKAKYjVtSSrprpnPPtqErPRRPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmwmgVwmwmaIAKAKAKAKcdvovovomCaIAKjwvovohRmCAKaIcdMcYuWZGNaIAKcdvovovomCAKaIGXAKcIVtSSrprpnPPtPtPtPtPtZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmoIifififLzAKAKAKAKcdxMuKFgmCaIAKjwWauKDzmCAKaIXBAQAQAQGNaIAKcduKuKxMmCAKaIGXGXGXVtSSrprpnPZPPQPQPQkvZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmHTHTHTHTHTnDAKAKAKcdZjZjkhmCtzbEjwZjZjOSmCaItzXBVLIUIUGNWAaIcdOAZjZNmCAKaIAKGXevVtSSrprpnPZPPQPQPQkvZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmKWKWMbrXHTlUAKAKAKcdhRvovomCAKaIjwZxvovomCaIAKcdvoKXgmFXGXaIcdvovoyAmCAKaIAKAKSqVtSSrprpnPtItItItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmKWrXKWKWHTlUAKAKAKcduKuKvnmCAKaIjwyfuKuKmCaIAKcduKpiCvFXGXaIcdKguKrRmCAKaIAKAKPLVtSSrprpnPtIqmSYcStIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmHTKWKWKWHTLjAKAKAKcdouZjZjmCAKtzjwZjOAfqmCtzAKcdIUEkQxFXUStzcdZjZjZjmCAKaIAKAKAKVtSSrprpMYtIqmtItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmbYKWHTHTLjAKAKAKAKAKAKAKAKAKAKAKSzAKAKAKAKAKAKAKAKGXGXGXAKAKAKAKAKAKAKAKaIAKAKAKVtlVGTGTGTbuSgZmtCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwmwmwmwmwmAKAKAKAKAKAKAKAKAKAKAKAKSzAKAKAKAKAKAKAKAKGXAKGXAKAKAKAKAKAKAKAKaIAKAKAKVtXLrprprpsGqmSgtCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEVtwkAKAKAKAKjOAKAKAKAKAKAKCiiuMeDitXIrjEhThThThThThThThTRjothThTQqaIAKAKAKVtVqXLXLXLtIqmSgtCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvZEVtVtVtVtVtVtVtVtVtVtVtVtAKSzVtVtVtVtVtVtOESnOEVtAKAKVtVtVtVtVtVtSzaIVtVtVtVtZPZPZPZPtIrkrktCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEkvPQPQPQPQPQzJnREKzJzJrOrOrOsPdDMwOEPfRQRQPfPQPQPQPQkPwhFHkPPQPQPQPQPQPQPQtIxZtItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvZEkvPQPQPQPQzJzJnREKzJzJrOrOrOUgdDMwOEPfRQRQPfPfPQPQkPkPigCEkPkPkPkPkPkPkPkPkPFIkPZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEkvPQPQPQPQzJVRnREKhlzJrOgHrOUgdDMwOERQRQRQRQPfPQPQkPJwovOTrIccPHuzhsdUtcWnCANYkPZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOwOwOwOwOwOAcnREKnRzJUgrOUgUgdDMwOERQRQRQbDPfPQPQkPEqGcCEZsZsGcGcGcGcGcGcGcDckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOAfMTwlUBwOksnREKnRzJTCrOUglgdDMwOERQRQRQRQPfPQPQkPEqGcCEGcGcGcuIGcGcGcGcGcGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOxSOiOikSwOksnREKnRzJgLrOUgxbdDMwOEjvRQRQRQPfPQPQkPEqGckfYGbiUcSVCETDYGbiCqfgkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOKCOiOikSwOksnREKnRzJxorOrOrOuqMwOEFPRQRQRQPfPQPQkPVMGcWHdmGczzGcGcUvGcGczzIjkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOkSOiOikScjksnREKktzJlSXoFFtudDMwOERQRQRQRQPfPQPQkPEqGcGcGcGcGcrmGcCEZsGcGcGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOkSOizaGScCkRnREKUizJyEwzcLLAdDMwYbjzRQRQRQPfPQPQkPEqGcGcZsGcGcGcGcCEGcGcGcdmkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEkvPQPQPQPQPQzJnREKzJzJqXaFZvsPdDMwOEPfRQRQPfPQPQPQPQkPwhFHkPPQPQPQPQPQPQPQtIxZtItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvZEkvPQPQPQPQzJzJnREKzJzJTCUgrOwxdDMwOEPfRQRQPfPfPQPQkPkPigCEkPkPkPkPkPkPkPkPkPFIkPZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEkvPQPQPQPQzJVRnREKhlzJTCUgUgHxdDFeOERQRQRQRQPfPQPQkPJwovOTrIccPHuzhsdUtcWnCANYkPZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOwOwOwOwOwOAcnREKnRzJTCUgUgzldDMwOERQRQRQbDPfPQPQkPEqGcCEZsZsGcGcGcGcGcGcGcDckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOAfMTwlUBwOksnREKnRzJTCTCUglgdDMwOERQRQRQRQPfPQPQkPEqGcCEGcGcGcuIGcGcGcGcGcGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOxSOiOikSwOksnREKnRzJgLTCUgxbdDMwOEjvRQRQRQPfPQPQkPEqGckfYGbiUcSVCETDYGbiCqfgkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOKCOiOikSwOksnREKnRzJxoTCTCTCuqXROEFPRQRQRQPfPQPQkPVMGcWHdmGczzGcGcUvGcGczzIjkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOkSOiOikScjksnREKktzJlSTCFFtudDXROERQRQRQRQPfPQPQkPEqGcGcGcGcGcrmGcCEZsGcGcGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOkSOizaGScCkRnREKUizJyEwzcLLAdDXRYbjzRQRQRQPfPQPQkPEqGcGcZsGcGcGcGcCEGcGcGcdmkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOkSOiOiPPwOjLksgMQezJdDdDdDdDdDOEOEICRQRQRQPfPQPQkPEqGcekYGbiUcCECETDKPbiUcGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOBQOiOiAywOksnREKkbzJtwKFKFKFKFFNwFkARQRQxyPfPQPQkPEqGcUvGcGczzGcGcUvGcGczzGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOjMOiOiAhwOksnREKnRXDXDXDXDXDXDXDXDkARQRQOWPfPQPQkPEqdaCEPNCESVCECESKGcGcGcGckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
@@ -683,12 +738,12 @@ zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvZEkvPQPQPQPQzJhlksEKnRXDJesMsMRwsMLmXDRQRQTwXtueJCueZEZEZEZEZEZEZEZEZEZEZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEkvPQPQPQPQzJzJVvdVzJXDqPrgmEdfSfHnueueueueueueVTueZEkvkvkvkvkvkvkvkvkvkvkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFOFOFOFOFOFPQPQPQPQXrYOiYXrXDXDXDueFAueueueHJHJHJHJVCOuueZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFDxJyrsqFOFXrXrXrXrXrwSiYXrnxjesSueBoMRdiHJHJueueueueueueZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFJyFgPcqFiVgSRFBFRFzFAHKAXrnxeLLvueueueNTueueueZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFJyFgDxDxOFCKQrUxQrQrqfqfXrnxPXXvXvXvXvYvnxZEZEZEkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFqFDxDxDxXrfqQrgxQrQrqfqfXrecAUececececIEecZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFqFWDeqEXXrDGOawLQrQrvYqfXrdWmiNvkjSJgtlZdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFOFOFOFOFXrjsQrQrQrQrqfzKXrdWVZPVanBYgtLNdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFtMmnrsBVOFXrXrXrXrXrwSiYXrnxjesSueBoMRdiHJHJueueueueueueZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEffqFqFPcuNiVgSRFBFRFzFAHKAXrnxeLLvueueueNTueueueZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZECgJyqFDxCdOFCKQrUxQrQrqfqfXrnxPXXvXvXvXvYvnxZEZEZEkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEDQqFYZqFCdXrRFQrgxQrQrqfqfXrecAUececececIEecZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFfUWDeqEXXrDGOawLQrQrvYqfXrdWmiNvkjSJgtlZdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEOFOFqqOFOFXrjsQrQrQrQrqfzKXrdWVZPVanBYgtLNdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEXrizirvjYDLnqfqfXrdWdWdWdWdWdWdWdWZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvZEXrsYirvjYDLnqfqfXrZEZEZEZEZEZEZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEXrYHRFrQRFRFOJqfXrZEkvkvkvkvkvkvkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
