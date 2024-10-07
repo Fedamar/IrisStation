@@ -7,6 +7,7 @@
 "bb" = (/obj/structure/cable,/obj/machinery/camera{c_tag = "Hall West"; dir = 10; network = list("FNAF")},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "bg" = (/obj/structure/cable,/obj/structure/table/reinforced/rglass,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "bi" = (/obj/structure/cable,/obj/structure/table,/turf/open/floor/iron/showroomfloor,/area/station/maintenance/radshelter{name = "Kitchen"})
+"bn" = (/obj/structure/cable,/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_head,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "bp" = (/obj/structure/closet/cardboard,/obj/structure/fireaxecabinet/directional/west,/obj/item/storage/medkit/fire,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power & Emergency Storage"})
 "bu" = (/obj/structure/mineral_door/wood,/obj/structure/cable,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Bathroom B"})
 "bD" = (/obj/machinery/light/broken/directional/east{constant_flickering = 1},/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
@@ -74,6 +75,7 @@
 "gL" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/weapon/energy/ion,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "gM" = (/obj/structure/cable,/obj/structure/disposalpipe/segment,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
 "gN" = (/obj/machinery/defibrillator_mount/mobile{critical_machine = 1},/obj/structure/window/reinforced/spawner/directional/north,/obj/item/defibrillator/loaded,/turf/open/floor/mineral/plastitanium/red,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
+"gP" = (/obj/structure/cable,/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_right_arm,/obj/item/mecha_parts/part/savannah_ivanov_left_arm,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "gS" = (/obj/structure/cable,/obj/structure/cable,/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Lobby"})
 "gV" = (/obj/machinery/button/curtain{id = 3},/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Secondary Stage"})
 "hl" = (/obj/structure/closet/crate/cardboard,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall West"})
@@ -274,7 +276,7 @@
 "wM" = (/mob/living/basic/trooper/syndicate/ranged/smg/space/stormtrooper,/turf/open/floor/mineral/plastitanium,/area/space)
 "wO" = (/turf/closed/wall/r_wall,/area/station/maintenance/radshelter{name = "Main Storage"})
 "wS" = (/obj/structure/cable,/obj/machinery/light/dim/directional/west,/turf/open/floor/carpet/red,/area/station/maintenance/radshelter{name = "Lobby"})
-"xb" = (/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_torso,/obj/item/mecha_parts/part/savannah_ivanov_head,/obj/item/mecha_parts/part/savannah_ivanov_left_arm,/obj/item/mecha_parts/part/savannah_ivanov_right_arm,/obj/item/mecha_parts/part/savannah_ivanov_left_leg,/obj/item/mecha_parts/part/savannah_ivanov_right_leg,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
+"xb" = (/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_torso,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "xc" = (/obj/machinery/mechpad,/obj/vehicle/sealed/mecha/marauder/mauler/loaded,/obj/structure/cable,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "xe" = (/obj/machinery/vending/hotdog,/obj/structure/cable,/obj/structure/cable,/obj/effect/mapping_helpers/broken_machine,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
 "xo" = (/obj/structure/rack,/obj/item/mecha_parts/mecha_equipment/thrusters,/obj/item/mecha_parts/camera_kit,/obj/structure/cable,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
@@ -521,6 +523,7 @@
 "Pu" = (/turf/open/floor/wood,/area/station/maintenance/radshelter{name = "Primary Stage"})
 "Pw" = (/obj/structure/cable,/obj/machinery/light/red/directional/south,/turf/open/floor/mineral/plastitanium,/area/station/maintenance/radshelter{name = "Syndicate Lab"})
 "Px" = (/turf/open/floor/iron/dark/small,/area/station/maintenance/radshelter{name = "Parts & Service"})
+"PE" = (/obj/structure/cable,/obj/structure/rack,/obj/item/mecha_parts/part/savannah_ivanov_right_leg,/obj/item/mecha_parts/part/savannah_ivanov_left_leg,/turf/open/floor/plating,/area/station/maintenance/radshelter{name = "Power Gen"})
 "PH" = (/obj/structure/table,/obj/machinery/smartfridge/drying,/obj/structure/cable,/turf/open/floor/iron/freezer,/area/station/maintenance/radshelter{name = "Kitchen"})
 "PI" = (/obj/structure/closet/cardboard,/obj/item/stack/sheet/plasteel/fifty,/obj/item/stack/sheet/mineral/titanium/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/obj/item/stack/sheet/mineral/wood/fifty,/turf/open/floor/iron/kitchen,/area/station/maintenance/radshelter{name = "Hall East"})
 "PL" = (/obj/machinery/light/broken/directional/east,/turf/open/floor/iron/kitchen/small,/area/station/maintenance/radshelter{name = "Party Room"; apc = Power})
@@ -742,9 +745,9 @@ zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkv
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvZEVtVtVtVtVtVtVtVtVtVtVtVtAKSzVtVtVtVtVtVtOESnOEVtAKAKVtVtVtVtVtVtSzaIVtVtVtVtZPZPZPZPtIrkrktCtIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEZEZEZEZEZEkvPQPQPQPQPQzJnREKzJzJlxTCqXsPdDMwOEPfRQRQPfPQPQPQPQkPwhFHkPPQPQPQPQPQPQPQtIxZtItItIZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvkvkvkvkvkvZEkvPQPQPQPQzJzJnREKzJzJTCUgrOwxdDMwOEPfRQRQPfPfPQPQkPkPigCEkPkPkPkPkPkPkPkPkPFIkPZEZEZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEkvPQPQPQPQzJVRnREKhlzJTCUgUgHxdDFeOERQRQRQRQPfPQPQkPJwovOTrIccPHuzhsdUtcWnCANYkPZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOwOwOwOwOwOAcnREKnRzJTCUgUgzldDMwOERQRQRQbDPfPQPQkPEqMmaDTYTYMmMmMmMmMmMmMmDckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
-zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOAfMTwlUBwOksnREKnRzJTCTCUglgdDMwOERQRQRQRQPfPQPQkPEqAaZvaFaFaFuIaFaFaFaFaFtrkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEkvPQPQPQPQzJVRnREKhlzJbnUgUgHxdDFeOERQRQRQRQPfPQPQkPJwovOTrIccPHuzhsdUtcWnCANYkPZEkvkvkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOwOwOwOwOwOAcnREKnRzJPEUgUgzldDMwOERQRQRQbDPfPQPQkPEqMmaDTYTYMmMmMmMmMmMmMmDckPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
+zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOAfMTwlUBwOksnREKnRzJgPTCUglgdDMwOERQRQRQRQPfPQPQkPEqAaZvaFaFaFuIaFaFaFaFaFtrkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOxSOiOikSwOksnREKnRzJgLTCUgxbdDMwOEjvRQRQRQPfPQPQkPEqPTkfYGbiUcSVomTDYGbiCqfgkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOKCOiOikSwOksnREKnRzJxoTCTCTCuqXROEFPRQRQRQPfPQPQkPVMPTWHSTsZzzGcGcUvsZsZzzIjkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
 zgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgkvZEwOkSOiOikScjksnREKktzJlSTCFFtudDXROERQRQRQRQPfPQPQkPEqPTGcGcGcGcrmGcomZsGcGcPTkPZEkvzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzgzg
