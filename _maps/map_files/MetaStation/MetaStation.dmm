@@ -3850,6 +3850,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/commons/locker)
+"bsA" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Psychology Maintenance"
+	},
+/turf/closed/wall,
+/area/station/maintenance/aft/greater)
 "bsC" = (
 /obj/structure/chair/wood/wings{
 	dir = 8
@@ -93537,7 +93543,7 @@ iwL
 nZm
 nZm
 tSw
-tSw
+bsA
 tSw
 tSw
 xWF
